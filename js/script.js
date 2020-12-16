@@ -35,7 +35,7 @@ button.addEventListener("click", function (){
        let player = checkbox[tmp].parentElement.children[1].alt;
        let computer = randomShiFuMi();
        setComputer(computer);
-       setInterval(test (player,computer),3000);
+       setTimeout(test (player,computer),3000);
     }
 })
 
